@@ -1,6 +1,6 @@
 import '../../styles/Description.css';
 
-const images = import.meta.glob('../assets/img/*.jpg', {
+const images = import.meta.glob('../../assets/img/*.png', {
     eager: true,
     import: 'default'
 });
@@ -10,7 +10,7 @@ function Description(props) {
         <div className='description-container'>
             <img
                 className='description-image'
-                src={images[`../assets/img/${props.image}.png`]}
+                src={images[`../../assets/img/${props.image}.png`]}
                 alt={`Foto de ${props.name}`}
             />
 
