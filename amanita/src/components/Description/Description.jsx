@@ -18,15 +18,17 @@ function Description(props) {
                 <p className='description-name'>
                     <strong>{props.name}</strong>
                 </p>
+                <p className='description-toxic'>
+                    {props.toxic}
+                </p>
                 <p className='description-use'>
                     {props.use} 
                 </p>
-                <p className='description-toxic'>
-                    "{props.toxic}"
+                
                 <p className='description-text'>
-                    "{props.text}"
+                    {props.text}
                 </p>
-                </p>
+
             </div>
         </div>
     );
