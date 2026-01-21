@@ -1,16 +1,71 @@
-# React + Vite
+🍄 Amanita Cards - React + Vite Mini Project  
+A simple React + Vite project showcasing a collection of Amanita mushroom species using reusable card components.  
+<p></p>
+🎯 Objective  
+This project is a front-end exercise focused on:  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Creating a reusable Card component (Description.jsx)  
+- Passing data via props  
+- Rendering multiple cards in App.jsx  
+- Applying basic CSS styling  
 
-Currently, two official plugins are available:
+<img width="200" alt="Screenshot From 2026-01-21 16-44-13" src="https://github.com/user-attachments/assets/5d7c7e6c-4bb6-4b91-87d2-5b3a63d89e42" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+🧱 Features
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+Displays 6 mushroom cards of the Amanita genus  
+Each card includes:  
+        - An image  
+        - A title (species name)  
+        - 3 descriptive text fields: Use, toxicity and morfological description  
+Clean and simple CSS layout  
+Responsive card grid  
 
-## Expanding the ESLint configuration
+🧪 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   React  
+    Vite (for fast development and building)  
+    CSS (no external libraries)  
+
+📁 Project Structure  
+(nuclear folders and files)
+
+src/  
+├── components/  
+│   └── Tarjeta.jsx  
+├── App.jsx  
+├── App.css  
+└── main.jsx  
+
+
+🚀 How to Run
+
+   Clone the repository:  
+   bash
+``` 
+git clone https://github.com/gzifoto-spec/amanita.git
+cd amanita
+``` 
+
+Install dependencies:  
+bash
+```
+
+npm install
+
+```
+Start the development server:  
+bash
+
+    
+
+    npm run dev
+
+📌 Notes  
+ - All images are placeholders or sourced from royalty-free sites  
+ - No complex design or animations  
+ - Focused on component structure and prop usage  
+ 
+🧙‍♂️ Author
+Made as a front-end practice exercise.
