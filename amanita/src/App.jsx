@@ -1,19 +1,20 @@
 import './App.css';
 import Description from './components/Description/Description';
+
 function App() {
   return (
 
     <div className='App'>
       <h1>Algunas de las amanitas más populares</h1>
       <Description
-        image=''
-        name=''
-        use=''
+        image='caesarea'
+        name='AMANITA CESAREA'
+        use='Comestible'
         toxic=''
         text=''
       />
       <Description
-        image=''
+        image='muscaria'
         name=''
         use=''
         toxic=''

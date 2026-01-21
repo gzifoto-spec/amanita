@@ -1,6 +1,6 @@
-import '../styles/Description.css';
+import '../../styles/Description.css';
 
-const images = import.meta.glob('../assets/img/*.png', {
+const images = import.meta.glob('../assets/img/*.jpg', {
     eager: true,
     import: 'default'
 });
